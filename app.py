@@ -1,11 +1,10 @@
 import streamlit as st
-import tensorflow as tf
 import numpy as np
 import cv2
 from PIL import Image
 
-# Load model
-model = tf.keras.models.load_model("mask_detector_cnn.h5")
+def predict(image):
+    return "Model not deployed yet"
 
 st.title("😷 Face Mask Detection App")
 
